@@ -20,15 +20,15 @@ grayscale.save('./nature_gray.png') #сохранение в другом фор
 
 
 # matplotlib
-# x = np.linspace(0, 2, 100)
-# fig, ax = plt.subplots()
-# ax.plot([0, 1, 2, 3], [0, 1, 4, 9], label='quadratic')   # график №1
-# ax.plot(x, x**3, label='cubic') #график №2
-# ax.set_xlabel('x') # подпись оси x
-# ax.set_ylabel('y') # подпись оси y
-# ax.set_title("plots") # подпись заголовка
-# plt.legend() # показать легенду
-# plt.show()
+x = np.linspace(0, 2, 100)
+fig, ax = plt.subplots()
+ax.plot([0, 1, 2, 3], [0, 1, 4, 9], label='quadratic')   # график №1
+ax.plot(x, x**3, label='cubic') #график №2
+ax.set_xlabel('x') # подпись оси x
+ax.set_ylabel('y') # подпись оси y
+ax.set_title("plots") # подпись заголовка
+plt.legend() # показать легенду
+plt.show()
 
 
 #requests
